@@ -79,8 +79,9 @@ The application will start with hot-reload enabled.
 
 ---
 ## Demostration
-<img width="1919" height="966" alt="Screenshot 2026-02-14 142543" src="https://github.com/user-attachments/assets/bb4aa734-9dd8-417a-acde-64bace451943" />
+<img width="1898" height="965" alt="Screenshot 2026-02-14 143625" src="https://github.com/user-attachments/assets/e5e96a43-d77f-420f-910c-5e09a06137b0" />
 
+https://indiansignlanguage.lovable.app/
 
 ## License
 
