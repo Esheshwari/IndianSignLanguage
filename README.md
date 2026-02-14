@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# IndianSignLanguage – Real-Time Speech to Indian Sign Language (ISL)
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**IndianSignLanguage** is an accessibility-focused web application that converts real-time spoken language into Indian Sign Language (ISL).
 
-## How can I edit this code?
+The platform is designed to help Deaf and Hard-of-Hearing individuals understand nearby conversations through:
 
-There are several ways of editing your application.
+-  Live speech capture  
+-  Real-time speech-to-text conversion  
+-  Word-based ISL video matching  
+-  Sequential sign playback  
 
-**Use Lovable**
+This project is currently built as an MVP and is designed to evolve into a fully AI-powered ISL translation system.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+##  Core Features (MVP)
 
-**Use your preferred IDE**
+- Microphone input for live speech
+- Speech-to-text transcription
+- Text display for clarity
+- ISL video library matching system
+- Sequential playback of matched ISL signs
+- Admin panel to upload and tag ISL videos
+- Clean, high-contrast accessible UI
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+##  Future Roadmap
 
-Follow these steps:
+- AI-based sentence restructuring for ISL grammar
+- Automatic clause detection and contextual understanding
+- 3D avatar-based sign generation
+- Mobile app version (Android/iOS)
+- Multi-language speech support (Hindi + English)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+##  Tech Stack
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Vite  
+- TypeScript  
+- React  
+- shadcn-ui  
+- Tailwind CSS  
 
-## How can I deploy this project?
+Planned integrations:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- Whisper API (Speech-to-Text)
+- OpenAI API (Text processing and clause detection)
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+##  How to Run Locally
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Make sure you have **Node.js & npm** installed.  
+Recommended: Install using nvm.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Steps:
+
+```sh
+# Step 1: Clone the repository
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate into the project directory
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install dependencies
+npm install
+
+# Step 4: Start development server
+npm run dev
+```
+
+The application will start with hot-reload enabled.
+
+---
+## Demostration
+<img width="1919" height="966" alt="Screenshot 2026-02-14 142543" src="https://github.com/user-attachments/assets/bb4aa734-9dd8-417a-acde-64bace451943" />
+
+
+## License
+
+MIT License
+
+## Mission
+
+SignBridge aims to improve accessibility and independence for the Deaf community by making everyday conversations understandable in real-time.
+
+Accessibility is not a feature. It is a necessity.
+
